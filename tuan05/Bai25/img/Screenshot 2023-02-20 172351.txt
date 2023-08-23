@@ -1,0 +1,9 @@
+Oetting started with OSS
+
+This tutorial introduces you to the basic features and language (the syntax) for Cascading
+Style Sheets (CSS). You use CSS to change the look of a structured document, such as
+aweb page. The tutorial also includes sample exercises you can tr on your own
+Ccomputer to see the effects of CSS and features that work in modern browsers.
+
+The tutorial is for beginners and anyone who would like to review the basics of CSS. lfyou
+have more experience with CSS, the CSS main page lists more advanced resources.

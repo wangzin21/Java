@@ -1,0 +1,232 @@
+.container{
+    width: 1418px;
+    height: 900px;
+    display: flex;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+nav{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid rgb(235, 225, 225);
+}
+nav .top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+    gap: 30px;
+    height: 50%;
+}
+nav .bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: baseline;
+    gap: 20px;
+}
+section{
+    width: 70%;
+    border-right: 1px solid rgb(235, 225, 225);
+    padding: 20px 40px 0 40px;
+}
+section .top{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+}
+section .top .top_1{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .top .top_1 .right{
+    color: red;
+    border: 1px solid rgb(235, 225, 225);
+    border-radius: 30px;
+    width: 70px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .top .top_2{
+    display: flex;
+    gap: 20px;
+    height: 50%;
+}
+section .top .top_2 img{
+    width: 20px;
+}
+section .top .top_2 .internal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 30px;
+    gap: 2px;
+    background-color: rgb(228, 59, 93);
+    border-radius: 30px;
+}
+section .top .top_2 .times{
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+    align-items: center;
+}
+section .center{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+section .center .center_2{
+    display: flex;
+    gap: 24px;
+}
+section .center img{
+    border-radius: 10px;
+}
+section .bottom{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+}
+section .bottom .buttom_item{
+    width: 120px;
+    height: 45px;
+    border-radius: 2px;
+    background-color: rgb(249, 44, 44);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    width: 48%; 
+    height: 100%;
+}
+article .item_1{
+    width: 100%;
+    height: 35%;
+    border-bottom: 1px solid  rgb(235, 225, 225);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article .item_1  .top{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+article .item_1 .top .left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+article .item_1 .top .left .quantity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    color: rgb(193, 67, 88);
+    border-radius: 15px;
+    background: rgb(243, 190, 198);
+}
+article .item_1 .top  .add{
+    width: 70px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    color: rgb(193, 67, 88);
+    border: 1px solid rgb(193, 67, 88);
+}
+article .item_1 .item{
+    width: 90%;
+    display: grid;
+    gap: 20px;
+}
+article .item_1 .item .item1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+article .item_1 .item .item1 .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+article  .item_2{
+    padding-top: 30px;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+article .item_2 .top{
+    width: 90%;
+}
+article  .item_2 .bottom{
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+} 
+article .item_2  .bottom .left{
+    display: flex;
+    flex-direction: column;
+    gap: 85px;
+}
+article .item_2 .bottom .right .name{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+article .item_2 .bottom .right .content{
+    width: 100%;
+    height: 60px;
+}
+article .item_2 .bottom .right .content i{
+    width: 40px;
+    height: 40px;
+    size: 40px;
+}
+article .end{
+    display: flex;
+    position: relative;
+    top: -50px;
+}
+article .end input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: silver;
+}
+article .end .i_1{
+    position: relative;
+    left: -30px;
+    top: 10px;
+}
+article .end .i_1 i{
+    font-size: 25px;
+}
+article .end .i_2{
+    font-size: 30px;
+}

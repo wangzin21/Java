@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 6</title>
+</head>
+<body>
+    <style>
+        #diva{
+          background-color: antiquewhite;
+          text-align: center;
+          width: 210px;
+          padding: 10px;
+          border-radius: 10px;
+          box-shadow: 5px 5px 10px gray;
+          margin: auto;
+        }
+        #divb{
+            background-color: rgb(228, 176, 108);
+            text-align: left;
+            color: rgb(150, 64, 64);
+            width: 200px;
+            float: left;
+            margin: 20px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px gray;
+        }
+        #divc{
+            background-color: white;
+            color: black;
+            width: 200px;     
+            height: 163px;
+            float: left;
+            margin-left: 50px;
+            margin-top: 225px;
+            padding-top: 1px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            text-align: left;
+            box-shadow: 5px 5px 10px gray;
+        }
+        #divd{
+            background-color: white;
+            color: black;
+            width: 200px;
+            height: 150px;
+            float: left;
+            margin-left: 50px;
+            margin-top: 225px;
+            padding-top: 1px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+            text-align: left;
+            box-shadow: 5px 5px 10px gray;
+        }
+        #divbcd{
+            display: flex;
+            padding-bottom: 1px;
+            padding-top: 1px;
+        }
+        #dive{
+            width: 500px;
+            background-color: rgb(239, 225, 119);
+            text-align: center;
+            padding: 10px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px gray;
+        } 
+        .while{
+        padding:10px;
+        background-color: white;
+        }
+        .orange{
+        padding:10px;
+        background-color: orange;
+        }
+        .yellow{
+        padding:10px;
+        background-color: yellow;
+        }
+        .FFCCFF{
+            background-color: #ffccff;
+            padding:10px;
+            color: rgb(71, 135, 253);
+            border-color: #f10df1;
+            border-top-left-radius: 3px;
+        }
+        .blue{
+            background-color: rgb(184, 219, 238);
+            color: black;
+            border-color: #f10df1;
+            border-top-left-radius: 3px;
+        }
+        .FF99FF{
+            background-color: #FF99FF;
+            border-color: #f10df1;
+            border-top-left-radius: 3px;
+        }
+        
+    </style>
+    <div id ="diva">
+        <table border="1" width=100%>
+            <tr>
+                <td class="while" >1</td>
+                <td colspan="4" class="while" >2</td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="while">3</td>
+                <td class="orange">4</td>
+                <td class="orange">5</td>
+                <td colspan="2" rowspan="2" class="yellow">6</td>
+            </tr>
+            <tr>
+                <td class="orange">7</td>
+                <td class="orange">8</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="yellow">9</td>
+                <td colspan="2" class="yellow">10</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <hr>
+    <div id="divbcd">
+        <div id="divb">
+            <table border="1" width=100%>
+                <thead style="color: black;">
+                    <tr>
+                        <th>(1)</th>
+                        <th>(2)</th>
+                        <th>(3)</th>
+                        <th colspan="4">(4)</th>
+                        <th>(5)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td colspan="6" align="left"><u>Part I</u></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td colspan="5"><u>Chapter 1</u></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td colspan="4"><u>Saction A</u></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td colspan="4"><u>Saction B</u></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td colspan="5"><u>Chapter 2</u></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td colspan="4"><u>Saction A</u></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td colspan="4"><u>Saction B</u></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td colspan="6"><u>Part II</u></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td colspan="5"><u>Chapter 3</u></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td colspan="4"><u>Saction A</u></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td colspan="4"><u>Saction B</u></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td colspan="5"><u>Chapter 4</u></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td colspan="4"><u>Saction A</u></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td colspan="4"><u>Saction B</u></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="divc"><h4>With cellpadding:</h4>
+            <table border="1" width=60% >
+                <tr>
+                    <td class="while">6.470</td>
+                    <td class="while">6.470</td>
+                </tr>
+                <tr>
+                    <td class="while">6.470</td>
+                    <td class="while"> 6.470</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="divd"><h4>Table with spanning row:</h4>
+            <table border="1" width=60% >
+                <tr>
+                    <td >6.470</td>
+                    <td >6.470</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">6.470</td>
+                    <td > 6.470</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">6.470</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <div id="dive">
+        <h3 style="color: #c04fc0;">NUMBERS 1-5 in VARIOUS LANGUAGES</h3>
+        <table border="1" width="100%" >
+            <thead>
+                <tr>
+                    <th class="FFCCFF"></th>
+                    <th class="FF99FF"><u>English</u></th>
+                    <th class="FF99FF"><u>Espanol</u></th>
+                    <th class="FF99FF"><u>Francais</u></th>
+                    <th class="FF99FF"><u>Italino</u></th>
+                    <th class="FF99FF"><u>Deutsch</u></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="FFCCFF">
+                    <td class="blue">1</td>
+                    <td>one</td>
+                    <td>uno</td>
+                    <td>un</td>
+                    <td>uno</td>
+                    <td>eins</td>
+                </tr>
+                <tr class="FFCCFF">
+                    <td class="blue">2</td>
+                    <td>two</td>
+                    <td>dos</td>
+                    <td>deux</td>
+                    <td>due</td>
+                    <td>zwei</td>
+                </tr>
+                <tr class="FFCCFF">
+                    <td class="blue">3</td>
+                    <td>three</td>
+                    <td>tres</td>
+                    <td>trois</td>
+                    <td>tre</td>
+                    <td>drei</td>
+                </tr>
+                <tr class="FFCCFF">
+                    <td class="blue">4</td>
+                    <td>four</td>
+                    <td>cuatro</td>
+                    <td>quatre</td>
+                    <td>quattro</td>
+                    <td>vier</td>
+                </tr>
+                <tr class="FFCCFF">
+                    <td class="blue">5</td>
+                    <td>five</td>
+                    <td>cinco</td>
+                    <td>cing</td>
+                    <td>cinque</td>
+                    <td>fünf</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

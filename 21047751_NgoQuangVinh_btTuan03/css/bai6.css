@@ -1,0 +1,13 @@
+.container{
+    width: 60%;
+    height: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(180, 172, 172),-2px -2px  2px rgb(180, 172, 172);
+    box-sizing: border-box;
+}
+.a{
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+}

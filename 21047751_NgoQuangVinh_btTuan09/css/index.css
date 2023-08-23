@@ -1,0 +1,14 @@
+.modal{
+    border: 1px solid red;
+}
+header{
+    background-image: url(../img/images.jpg);
+    height: 140px;
+}
+nav ul{
+    list-style: none;
+}
+.container{
+    border: 1px solid;
+    width: 90%;
+}

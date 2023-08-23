@@ -1,0 +1,52 @@
+.container {
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 5px 5px 10px gray, -5px -5px 10px gray
+}
+
+.container .p1{
+    text-indent: 1cm;
+    color: red;
+    text-align: justify;
+}
+
+.container .p2 {
+    text-align: right;
+    color: blue;
+}
+
+.container .p3 {
+    text-align: center;
+    color: green;
+}
+
+.container .p4 {
+    text-align: left;
+    color: brown;
+}
+
+.container .p5 {
+    text-decoration: underline;
+    color: pink;
+}
+
+.container .p6 {
+    text-decoration: line-through;
+    color: purple;
+}
+
+.container .p7 {
+    text-decoration: overline;
+    color: red;
+}
+
+.container .p8 {
+    text-decoration: blink;
+    text-align: justify;
+    color: blue;
+    text-shadow: 4px 4px 8px blue;
+}

@@ -1,0 +1,36 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    margin-top: 50px;
+    width: 650px;
+    box-shadow: 5px 5px 5px gray,-5px -5px 5px gray;
+    padding: 30px;
+    overflow: hidden;
+}
+.h1{
+    font-size: 29px;
+    text-shadow: 0 0 3px #000000, 3px 0 3px #000000, 0 3px 3px #000000, -3px 0 3px #000000,
+0 -3px 3px #000000;
+}
+.ribbon{
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    border: double;
+    width: 380px;
+    height: 60px;
+    top: -170px;
+    left: -110px;
+    padding: 1px 0;
+    transform: rotate(-45deg);
+    background-color: #aa0000;
+    box-shadow: 0 0 10px #888888;;
+}
+p{
+    font-size: 20px;
+}

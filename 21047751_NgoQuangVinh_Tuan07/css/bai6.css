@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    margin: 50px auto;
+    width: 300px;
+    display: flex;
+    border: 1px solid;
+    flex-direction: column;
+    height: 500px;
+    border-radius: 5px;
+}
+.tool input{
+    width: 20px;
+    background-color: white;
+    border: none;
+}
+.tool input:hover{
+    background-color: gray;
+}
+.show  input{
+    width: 99%;
+    height: 95%;
+    border: none;
+    text-align: right;
+
+}
+ input[type='text']:focus {
+    border: none;
+}
+.container .header{
+    padding-left: 10px;
+
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .header button{
+    width: 20px;
+}
+.container .view .top{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.container .view .show{
+    height: 100px;
+}
+.container .view{ 
+
+    
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(213, 209, 209);
+}
+.view .bottom{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+.view .bottom input[type=button]{
+    border: none;
+    width: 50px;
+    height: 30px;
+    background-color: #fff;
+}
+.view .bottom input[type=button]:hover{
+    background-color: rgb(215, 212, 212);
+}
+.view .bottom ul{
+    display: flex;
+    list-style: none;
+}
+.phim input[type=button],.div1,.div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phim .div2 input[type=button]{
+    background-color: rgba(247, 250, 251, 0.9);
+}
+.phim input[type=button]{
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: rgb(222, 220, 220);
+}
+.phim input[type=button]:hover{
+    background-color: rgb(159, 157, 157);
+}

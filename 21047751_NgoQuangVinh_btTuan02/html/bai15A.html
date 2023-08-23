@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai15</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: auto
+        }
+        .all{
+            width: 600px;
+            height: 480px;
+            border: 1px solid black;
+            box-shadow: 1px 1px 10px currentColor;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .header{
+            margin-bottom: 15px;
+        }
+        .body{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="header">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="body">
+            <fieldset>
+                <legend>Your message: </legend>
+                <table>
+                    <tr>
+                        <td><label for="to">To</label></td>
+                        <td><input type="text" id="to"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Your email</label></td>
+                        <td><input type="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="message">Message</label></td>
+                        <td><textarea name="" id="message" cols="60" rows="10"></textarea></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>How you found us:</legend>
+                <table>
+                    <tr>
+                        <td><label for="list">How did you hear</label></td>
+                        <td>
+                            <select name="list" id="list">
+                                <option value="google">google</option>
+                                <option value="edge">Microsoft edge</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="newsletter">Newslater</label></td>
+                        <td><input type="checkbox" id="newsletter" >Ensure this box is checked if you would like to receive email updates
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </div>
+        <input type="submit" value="send message">
+    </div>
+</body>
+</html>

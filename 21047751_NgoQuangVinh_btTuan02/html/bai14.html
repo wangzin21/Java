@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 14</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: auto;
+        }
+
+        #all {
+            width: 770px;
+            height: 400px;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 1px 1px 10px currentColor;
+            border-radius: 2px;
+        }
+
+        #divlabel {
+            width: 25%;
+            float: left;
+        }
+
+        #divinput {
+            width: 75%;
+            float: left;
+            margin-top: 20px;
+        }
+
+        #divemail {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        #divmess {
+            margin-top: 70px;
+            margin-bottom: 90px;
+        }
+
+        #divlist {
+            margin-bottom: 8px;
+            margin-bottom: 12px;
+        }
+
+        .email {
+            padding: 0px 0px 10px;
+        }
+
+        .mess {
+            padding: 0px 0px 10px;
+        }
+
+        .list {
+            padding: 0px 0px 10px;
+        }
+
+        .checkbox {
+            padding: 0px 0px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="all">
+        <h1>Contact Us</h1>
+        <p>Use the following form to send a message to Example Cafe</p>
+        <form action="">
+            <div id="divlabel">
+                <div id="divemail">
+                    <label for="email">Your email</label><br>
+                </div>
+
+                <div id="divmess">
+                    <label for="message">Message</label><br>
+                </div>
+
+                <div id="divlist">
+                    <label for="list">How did you hear of us?</label><br>
+                </div>
+
+                <div id="divcheckbox">
+                    <label for="checkbox">Newsletter</label>
+                </div>
+            </div>
+            <div id="divinput">
+                <div class="email">
+                    <input type="email" id="email">
+                </div>
+
+                <div class="mess">
+                    <textarea name="" id="message" cols="30" rows="10" style="width: 80%;">
+                    </textarea>
+                </div>
+
+                <div class="list">
+                    <select name="list" id="list">
+                        <option value="google">google</option>
+                        <option value="edge">edge</option>
+                    </select>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="checkbox">Ensure this box is checked if you would like to receive email
+                    updates
+                </div>
+            </div>
+            <div>
+                <input type="submit" value="send message">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 15B</title>
+    <style>
+        .all{
+            margin: 0px auto;
+            width: 500px;
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <table>
+                <tr>
+                    <td><label for="fname">First Name: </label></td>
+                    <td><input type="text" id="fname"></td>
+                </tr>
+                <tr>
+                    <td><label for="lname">Last Name: </label></td>
+                    <td><input type="text" id="lname"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">E-mail</label></td>
+                    <td><input type="email"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Competition Question</legend>
+            How tall is the Eiffel Tower in Paris,France?<br>
+            <input type="radio" name="radio" id="584" value="584">
+            <label for="584">584 ft</label><br>
+            <input type="radio" name="radio" id="784" value="784">
+            <label for="784">784 ft</label><br>
+            <input type="radio" name="radio" id="984" value="984">
+            <label for="984">984 ft</label><br>
+            <input type="radio" name="radio" id="1184" value="1184">
+            <label for="1184">1184 ft</label>
+        </fieldset>
+        <fieldset>
+            <legend>Tiebreaker Question</legend>
+            <label for="text"> In 25 words or less, say why you would like to win $10,000:</label><br>
+            <textarea name="" id="text" cols="40" rows="10"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Enter compertition</legend>
+            <input type="submit" value="Enter compertition">
+        </fieldset>
+    </div>
+</body>
+</html>

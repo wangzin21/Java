@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 17a</title>
+    <style>
+        ul {
+            list-style: decimal;
+        }
+
+        * {
+            text-align: left;
+            margin: auto;
+        }
+
+        .all {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 800px;
+            height: 700px;
+            border: 1px solid black;
+            padding: 20px;
+            background-color: rgb(236, 199, 105);
+            border-radius: 10px;
+            box-shadow: 1px 1px 10px currentColor;
+        }
+
+        .all h1 {
+            text-align: center
+        }
+
+        .all .end {
+            margin-left: 40%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="all">
+        <h1>Survey Form</h1>
+        <p>If you are interested in purchasing one or more of our products, before ordering please complete some or all
+            of the following survey for
+            our marketing department. Answering any question is optional, and all information will be kept strictly
+            confidential. Thank you very much for your time!</p>
+        <form action="">
+            <ul>
+                <li><label for="name">What is your name?</label><br>
+                    <input type="text" id="name">
+                </li>
+                <li>
+                    What is your date of birth?<br>
+                    <label for="month">Month:</label>
+                    <select name="month" id="month">
+                        <option value="jan" id="month">Jan</option>
+                        <option value="feb" id="month">Feb</option>
+                        <option value="mar" id="month">Mar</option>
+                        <option value="apr" id="month">Apr</option>
+                        <option value="may" id="month">May</option>
+                        <option value="jun" id="month">Jun</option>
+                        <option value="jul" id="month">Jul</option>
+                        <option value="aug" id="month">Aug</option>
+                        <option value="sep" id="month">Sep</option>
+                        <option value="oct" id="month">Oct</option>
+                        <option value="nov" id="month">Nov</option>
+                        <option value="dec" id="month">Dec</option>
+                    </select>
+                    <label for="date">Date: </label>
+                    <input type="number" min="1" max="31" id="date">
+                    <label for="year">Year: </label>
+                    <input type="number" min="0" max="999" id="year">
+                </li>
+                <li>
+                    <label for="address"> What is your mailing address (if you would like to have a hard copy of our
+                        catalog sent to you)? </label>
+                    <textarea name="" id="address" cols="50" rows="5">
+                    </textarea>
+                </li>
+                <li>
+                    <label for="email">What is your email address?</label><br>
+                    <input type="email" id="email">
+                </li>
+                <li>
+                    Have you viewed our online product catalog?<br>
+                    <input type="radio" id="choice1" name="choice">
+                    <label for="choice1">Yes</label>
+                    <input type="radio" id="choice2" name="choice">
+                    <label for="choice2">No</label>
+                </li>
+                <li>
+                    If so, what product(s), besides the one you are ordering, might you be interested in purchasing in
+                    the future? (Check all that apply). <br>
+                    <input type="checkbox" id="vcr">
+                    <label for="vcr">VCR</label><br>
+                    <input type="checkbox" id="TV">
+                    <label for="TV">Big Screen TV</label><br>
+                    <input type="checkbox" id="audio">
+                    <label for="audio">Audio Equipment</label><br>
+                    <input type="checkbox" id="video">
+                    <label for="video">Video Equipment</label><br>
+                    <input type="checkbox" id="camera">
+                    <label for="camera">Camera Equiment</label><br>
+                    <input type="checkbox" id="other">
+                    <label for="other">Other</label>
+                    <input type="text" id="other" value="Please List: ">
+                </li>
+                <li>
+                    <label for="question">Do you have any questions, comments or suggestions before proceeding to the
+                        Order Form?</label>
+                    <textarea name="" id="question" cols="50" rows="10"></textarea>
+                </li>
+            </ul>
+            <div class="end">
+                <input type="submit" value="Send Form">
+                <input type="reset" value="Clear Form">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

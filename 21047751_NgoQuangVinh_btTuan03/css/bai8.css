@@ -1,0 +1,90 @@
+.container {
+    margin: 10px auto;
+    width: 40%;
+    padding: 10px;
+    box-shadow: 0 0 5px gray;
+    border-radius: 5px;
+}
+
+.box-a {
+    text-align: center;
+    border: solid;
+    border-width: 10px;
+    padding: 10px;
+    border-color: #85C226 #F7C200 green rgb(139, 12, 111);
+}
+
+.box-b {
+    border-style: solid dotted groove double;
+    border-width: 10px;
+    padding: 10px;
+    border-color: green yellow blue pink;
+}
+
+.box-c{
+    border-style: solid;
+    border-width: 5px 10px 15px 20px;
+    padding: 10px;
+    border-color: green yellow blue pink;
+}
+
+.box-d{
+    border-style: solid;
+    border-width: 10px ;
+    padding: 10px;
+    border-color: green yellow blue pink;
+    border-radius: 0 30px 70px 20px;
+}
+
+.box-f{
+    border: solid;
+    padding: 10px;
+    width: 40%;
+    margin: 0px auto;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: #f7c200;
+    overflow: hidden;
+    text-align: center;
+}
+.box-g{
+    width: 40%;
+    margin: 0px auto;
+    border-width: 0px 12px 0px 12px;
+    border-style: double;
+    border-color: violet;
+    border-radius: 40px 40px 60px 60px;
+    padding: 10px;
+    text-align: center;
+}
+.box-h{
+    width: 40%;
+    margin: 0px auto;
+    border: 10px solid #4493a0;
+    border-radius: 20px 100px 100px 20px;
+    padding: 10px;
+    text-align: center;
+}
+.box-i{
+    background: orange;
+    border-width: 4px 30px 4px 30px;
+    border-style: solid;
+    border-color: #56c6d9 #56c6d9 #fe2192 #fe2192;
+    border-radius: 0 120px 0 120px;
+    padding: 10px;
+    text-align: center;
+    width: 40%;
+    margin: 0px auto;
+}
+button{
+    padding: 10px;
+    background-color: #428bca;
+    border-color: #357ebd;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid transparent;
+    font-weight: 900;
+    font-size: 125%;
+    margin: 0px auto;
+}
